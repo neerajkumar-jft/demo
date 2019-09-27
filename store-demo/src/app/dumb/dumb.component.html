@@ -1,0 +1,4 @@
+<div class="row">
+<div class="col-4" [ngClass]="((a | async) > 0)? 'border border-primary': 'border border-danger'">A is: {{ a | async}}</div>
+<div class="col-4" [ngClass]="((b | async) > 0)? 'border border-primary': 'border border-danger'">B is: {{ b | async }}</div>
+</div>
